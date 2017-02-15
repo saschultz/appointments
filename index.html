@@ -13,33 +13,56 @@
     <div class="container">
       <div class="row">
       <div class="col-md-12">
-      <h1>Book Your Appointment Now!</h1>
+      <div class="jumbotron small">
+      <h1 class="jumboTitle">Doggie-DayCare:</h1>
+      <h2>Book Your Appointment</h2>
+    </div>
       <form id="formOne">
         <div class="form-group">
-          <label for="name">Enter Your First and Last Name:</label>
+          <label for="name">Enter The Human's First and Last Name:</label>
           <input id="name" class="form-control" type="text">
         </div>
         <div class="form-group">
-          <label for="service">Describe The Service You Would Like Book:</label>
+          <label for="service">Enter The Dog's Name:</label>
           <input id="service" class="form-control" type="text">
         </div>
+        <section><h4>Location</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="location" value="East Portland" checked>
+              East Portland
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="location" value="North Portland">
+              North Portland
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="location" value="Downtown Portland">
+              Downtown Portland
+            </label>
+          </div>
+        </section>
         <div class="form-group">
           <label for="date">Enter the Date You Would Like to Book:</label>
-          <input id="date" class="form-control" type="text">
+          <input id="date" class="form-control" type="date">
         </div>
         <div class="form-group">
           <div class="row">
             <div class="col-md-2">
-            <label for="start">Start Time:</label>
+            <label for="start">Drop-Off Time:</label>
             <input id="start" class="form-control" type="text">
           </div>
           <div id="endgroup" class="col-md-2">
-            <label for="end">End Time:</label>
+            <label for="end">Pick-Up Time:</label>
             <input id="end" class="form-control" type="text">
           </div>
         </div>
         <br>
-        <button type="submit" class="btn">Book Appointment!</button>
+        <button type="submit" class="btn">Book Now!</button>
 
         <div id="review">
           <h3>Booking Successful!</h3>
