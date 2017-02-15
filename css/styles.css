@@ -1,0 +1,21 @@
+#date {
+  width: 200px;
+}
+#start {
+  width: 200px;
+}
+#name {
+  width: 300px;
+}
+#service {
+  width: 400px;
+}
+#end {
+  width: 200px;
+}
+#endgroup {
+  margin-left: 50px;
+}
+#review {
+  display: none;
+}
